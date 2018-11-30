@@ -4,8 +4,8 @@ import {GameScene} from './scene';
 export class Config {
     constructor() {
         this.type = AUTO;
-        this.width = 800;
-        this.height = 600;
+        this.width = 1200;
+        this.height = 700;
         this.scene = new GameScene();
     }
 }
