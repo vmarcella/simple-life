@@ -10,7 +10,7 @@ export class GameScene extends Scene {
     }
 
     create() {
-        const logo = this.add.image(400, 150, 'logo');
+        const logo = this.add.image(600, 300, 'logo');
 
         this.tweens.add({
             targets: logo,

@@ -1,7 +1,7 @@
-import {AUTO} from 'phaser';
-import {GameScene} from './scene';
+import { AUTO } from 'phaser';
+import { GameScene } from './scene';
 
-export class Config {
+export default class Config {
     constructor() {
         this.type = AUTO;
         this.width = 1200;
